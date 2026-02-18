@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink Recipes</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Drink Bliss</div>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="recipe.html">Recipes</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="About.html">About</a></li>
+            
+        </ul>
+    </nav>
+
+    <div id = "addNewRecipeButton">
+        <button onclick="window.location.href='addNewRecipe.html'" class="add-recipe-btn">
+            Add a New Recipe
+        </button>
+
+    </div>
+
+    <section class="recipe-section">
+        <h2>Our Drink Recipes</h2>
+        <div class="recipe-list" id="recipe-list">
+           
+        </div>
+    </section>
+
+    <script src="recipe.js"></script>
+</body>
+</html>
+
